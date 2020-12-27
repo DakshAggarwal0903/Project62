@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background-color: blueviolet;
+}
+
+#myCarousel {
+    background-image: linear-gradient(blueviolet, darkblue);
+}
+
+.img-responsive {
+    margin-top: 35px;
+    height: 350px;
+}
+
+.row img {
+    height: 200px;
+    width: 200px;
+}
