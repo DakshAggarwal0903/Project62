@@ -7,7 +7,7 @@ body {
     background-image: linear-gradient(blueviolet, darkblue);
 }
 
-.img-responsive {
+.carousel-content img {
     margin-top: 35px;
     height: 350px;
 }

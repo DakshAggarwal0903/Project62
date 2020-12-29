@@ -15,64 +15,74 @@
 <body>
     <div class="container">
         <h1> Photo Gallery </h1>
-        <h1> Slide View </h1>
-        <div class="carousel slide" id="#myCarousel" data-ride="carousel">
+        <h1> </h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <div class="carousel-content"> <img src="img1.jfif"> </div>
+                        <div class="carousel-content">
+                            <h3> First Image </h3>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <div class="carousel-content"> <img src="img2.jfif"> </div>
+                        <div class="carousel-content">
+                            <h3> Second Image </h3>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <div class="carousel-content"> <img src="img3.jfif" id="#abcde"></div>
+                    </center>
+                    <div class="carousel-content">
+                        <h3>Third Image</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <center>
+                        <div class="carousel-content"> <img src="img4.jfif" id="#abcde"></div>
+                    </center>
+                    <div class="carousel-content">
+                        <h3>Fourth Image</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <center>
+                        <div class="carousel-content"> <img src="img5.jfif" id="#abcde"></div>
+                    </center>
+                    <div class="carousel-content">
+                        <h3>Fifth Image</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <center>
+                        <div class="carousel-content"> <img src="img6.jfif" id="#abcde"></div>
+                    </center>
+                    <div class="carousel-content">
+                        <h3>Sixth Image</h3>
+                    </div>
+
+                </div>
+
+
+            </div> <!-- Left and right controls --> <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="myCarousel" data-slide-to="2"></li>
-                <li data-target="myCarousel" data-slide-to="3"></li>
-                <li data-target="myCarousel" data-slide-to="4"></li>
-                <li data-target="myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
             </ol>
-            <div class="carousel-inner">
-                <div class="item-active">
-                    <center>
-                        <img class="img-responsive" src="img1.jfif" id="#abc">
-                    </center>
-                    <div class="carousel-content"> <h3>First Image</h3> </div>
-                </div>
-                <div class="item">
-                    <center>
-                        <img class="img-responsive" src="img2.jfif" id="#abcd">
-                    </center>
-                      <div class="carousel-content"> <h3>Second Image</h3> </div>
-                </div>
-                <div class="item">
-                    <center>
-                        <img class="img-responsive" src="img3.jfif" id="#abcde">
-                    </center>
-                      <div class="carousel-content"> <h3>Third Image</h3> </div>
-                </div>
-                <div class="item">
-                    <center>
-                        <img class="img-responsive" src="img4.jfif" id="#abcde">
-                    </center>
-                      <div class="carousel-content"> <h3>Fourth Image</h3> </div>
-                </div>
-                <div class="item">
-                    <center>
-                        <img class="img-responsive" src="img5.jfif" id="#abcde">
-                    </center>
-                      <div class="carousel-content"> <h3>Fifth Image</h3> </div>
-                </div>
-                 <div class="item"> 
-                    <center>
-                        <img class="img-responsive" src="img6.jfif" id="#abcde">
-                    </center>
-                       <div class="carousel-content"> <h3>Sixth Image</h3> </div>
-                </div>
-            </div>
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-               
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-               
-            </a>
-            </div>
-    </div>
+        </div>
+
+
+
         <h1> Grid View </h1>
         <div class="row">
             <img src="img1.jfif">
@@ -80,10 +90,10 @@
             <img src="img3.jfif">
         </div>
         <div class="row">
-         <img src="img4.jfif">
-         <img src="img5.jfif">
-         <img src="img6.jfif">
+            <img src="img4.jfif">
+            <img src="img5.jfif">
+            <img src="img6.jfif">
         </div>
+    </div>
     <script src="main.js"></script>
-</body>
-</html>
+</body></html>
